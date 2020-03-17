@@ -1,0 +1,43 @@
+import SwiftUI
+
+struct NavigationItem<NavigationBar: View, Content: View>: View {
+  init(@ViewBuilder navigationBar: () -> NavigationBar, @ViewBuilder content: () -> Content) {
+    self.navigationBar = navigationBar()
+    self.content = content()
+  }
+
+  var navigationBar: NavigationBar
+  var content: Content
+
+  var body: some View {
+    ZStack(alignment: .top) {
+      Color(UIColor.systemBackground)
+        .edgesIgnoringSafeArea(.all)
+      VStack(spacing: 0) {
+        navigationBar
+        content
+          .frame(maxWidth: .infinity, maxHeight: .infinity)
+      }
+    }
+  }
+}
+
+#if DEBUG
+struct NavigationItem_Previews: PreviewProvider {
+  static var previews: some View {
+    NavigationItem(navigationBar: {
+      NavigationBar(title: {
+        Text("Title")
+      }, leading: {
+        NavigationBackButton()
+      }, trailing: {
+        Button(action: {}) {
+          Image(systemName: "star.fill")
+        }
+      })
+    }) {
+      Text("Content")
+    }
+  }
+}
+#endif
