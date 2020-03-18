@@ -28,6 +28,39 @@ NavigationBar(
 
 - [NavigationBar.swift](NavigationBar.swift)
 
+## 🧩 NavigationForward
+
+Allows to navigate forward from one view to another. When navigation takes place, currently visible view is removed from the hierarchy and replaced with the forwarded one. 
+
+The component can be used by providing `Bool` value that defines if navigation is active and a closure that returns the forwarded view:
+
+```swift
+var isForwarded: Bool
+
+RootView()
+  .navigationForward(isActive: isForwarded) {
+    ForwardedView()
+  }
+```
+
+Or by providing a closure that returns optional forwarded view that (if not `nil`) will replace current view:
+
+```swift
+var model: Model?
+
+struct ForwardedView: View {
+  init(with model: Model) { ... }
+  ...
+}
+
+RootView()
+  .navigationForward {
+    model.map(ForwardedView(with:))
+  }
+```
+
+- [NavigationForward.swift](NavigationForward.swift)
+
 ## 🧩 NavigationDismissAction
 
 Uses SwiftUI environment to inject navigation dismiss action into view hierarchy. This environment property is used by `NavigationBackButton` and `NavigationPopGesture` to trigger dismission.
