@@ -10,6 +10,7 @@
 		31257B6224210B1D00A66BF1 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31257B6124210B1D00A66BF1 /* TabBar.swift */; };
 		31257B6424210B6400A66BF1 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31257B6324210B6400A66BF1 /* TabBarItem.swift */; };
 		31ACBF2924217A21007D23AA /* NavigationForward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ACBF2824217A21007D23AA /* NavigationForward.swift */; };
+		31ACBF2C242180E0007D23AA /* VScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ACBF2B242180E0007D23AA /* VScroll.swift */; };
 		31DBECE72420D660002D8262 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DBECE62420D660002D8262 /* AppDelegate.swift */; };
 		31DBECE92420D660002D8262 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DBECE82420D660002D8262 /* SceneDelegate.swift */; };
 		31DBECEB2420D660002D8262 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DBECEA2420D660002D8262 /* AppView.swift */; };
@@ -27,6 +28,7 @@
 		31257B6124210B1D00A66BF1 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		31257B6324210B6400A66BF1 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		31ACBF2824217A21007D23AA /* NavigationForward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationForward.swift; sourceTree = "<group>"; };
+		31ACBF2B242180E0007D23AA /* VScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VScroll.swift; sourceTree = "<group>"; };
 		31DBECE32420D660002D8262 /* TemplateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DBECE62420D660002D8262 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31DBECE82420D660002D8262 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,14 @@
 			path = TabBar;
 			sourceTree = "<group>";
 		};
+		31ACBF2A242180D2007D23AA /* VScroll */ = {
+			isa = PBXGroup;
+			children = (
+				31ACBF2B242180E0007D23AA /* VScroll.swift */,
+			);
+			path = VScroll;
+			sourceTree = "<group>";
+		};
 		31DBECDA2420D660002D8262 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +95,7 @@
 				31DBECFD2420DD5B002D8262 /* Navigation */,
 				31DBECFB2420D753002D8262 /* Resources */,
 				31257B6024210B0D00A66BF1 /* TabBar */,
+				31ACBF2A242180D2007D23AA /* VScroll */,
 			);
 			path = TemplateApp;
 			sourceTree = "<group>";
@@ -199,6 +210,7 @@
 				31DBECE92420D660002D8262 /* SceneDelegate.swift in Sources */,
 				31257B6424210B6400A66BF1 /* TabBarItem.swift in Sources */,
 				31DBECEB2420D660002D8262 /* AppView.swift in Sources */,
+				31ACBF2C242180E0007D23AA /* VScroll.swift in Sources */,
 				31DBED0A2420E53D002D8262 /* NavigationItem.swift in Sources */,
 				31DBED062420E3C2002D8262 /* NavigationBar.swift in Sources */,
 				31DBED022420DF56002D8262 /* NavigationPopGesture.swift in Sources */,
