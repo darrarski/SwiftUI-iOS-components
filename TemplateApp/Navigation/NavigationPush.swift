@@ -61,7 +61,7 @@ struct NavigationPush_Previews: PreviewProvider {
         }
       }.navigationPush(isActive: isPushed) {
         ZStack {
-          Color.yellow.edgesIgnoringSafeArea(.all)
+          Color.orange.edgesIgnoringSafeArea(.all)
           Button(action: { self.isPushed = false }) {
             Text("Pop")
           }
