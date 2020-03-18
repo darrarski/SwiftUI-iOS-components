@@ -80,9 +80,9 @@ RootView()
 
 ## 🧩 NavigationPush
 
-Allows to push a view on top of current view, imitating `UINavigationController` push action. Can be used in two ways:
+Allows to push a view on top of current view, imitating `UINavigationController` push action. When navigation takes place, pushed view appears on top of currently visible view, which is not removed from the view hierarchy. 
 
-- providing `Bool` value that defines if a view is pushed (`true`) or not (`false`) and a closure that returns pushed view:
+The component can be used by providing `Bool` value that defines if navigation is active and a closure that returns pushed view:
 
 ```swift
 var isPushed: Bool
@@ -93,7 +93,7 @@ RootView()
   }
 ```
 
-- providing a closure that returns optional view that will be pushed if it's not `nil`:
+Or by providing a closure that returns optional view that will be pushed if it's not `nil`:
 
 ```swift
 var model: Model?
