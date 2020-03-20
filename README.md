@@ -6,23 +6,17 @@
 
 ## 📝 Description
 
-...
+Template for building iOS application. Contains reusable components and building blocks for creating mobile applications.
 
-### 🧩 Components
-
-...
-
-### ➡️ Demo app
-
-...
-
-## 🛠 Setup
-
-Requirements:
+## 🛠 Tech stack
 
 - [Xcode](https://developer.apple.com/xcode/) 11.3.1
+- [Swift](https://swift.org/) 5.1
+- [iOS](https://www.apple.com/pl/ios/) 13.0
 
-Open `TemplateApp.xcodeproj` in Xcode and run the app.
+## 🧩 Components
+
+- [🧭 Navigation](TemplateApp/Navigation) - Set of SwiftUI components that allows implementing declarative navigation between views.
 
 ## 📄 License
 
