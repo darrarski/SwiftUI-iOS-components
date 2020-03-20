@@ -18,6 +18,7 @@ Template for building iOS application. Contains reusable components and building
 
 - [🧭 Navigation](TemplateApp/Navigation) - Set of SwiftUI components that allows implementing declarative navigation between views.
 - [🧩 TabBar](TemplateApp/TabBar) - SwiftUI component for implementing tabbed user interface.
+- [🧩 VScroll](TemplateApp/VScroll) - Vertically-scrollable view container with fixed-wdith content.
 
 ## 📄 License
 
