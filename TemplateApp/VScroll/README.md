@@ -8,4 +8,6 @@ VScroll(showsIndicators: true) {
 }
 ```
 
+For usage example, check out corresponding `PreviewProvider`.
+
 - [VScroll.swift](VScroll.swift)

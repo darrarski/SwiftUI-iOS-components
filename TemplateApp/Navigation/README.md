@@ -2,7 +2,7 @@
 
 Set of SwiftUI components that allows implementing declarative navigation between views.
 
-Examples: Each component has corresponding `PreviewProvider` with example usage.
+**Examples:** Each component has corresponding `PreviewProvider` with example usage.
 
 ## 🧩 NavigationBackButton
 
