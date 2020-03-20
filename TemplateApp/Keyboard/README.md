@@ -4,6 +4,20 @@ Set of SwiftUI components for handling onscreen keyboard.
 
 **Examples:** Each component has corresponding `PreviewProvider` with example usage. Because onscreen keyboard is not visible in Xcode previews, use simulator or physical device to check out the examples.
 
+## 🧩 KeyboardAvoider
+
+SwiftUI view modifier that ensures the view to which is applied is not covered by onscreen keyboard. The effect of "keyboard avoiding" is achieved by applying bottom padding to the view. The padding value is calculated from intersection of the view and onscreen keyboard frames. The component uses `KeyboardObserver` environment object, so make sure to inject it into view hierarchy.
+
+```swift
+let keyboard: KeyboardObserver
+
+SomeView()
+  .avoidKeyboard()
+  .environmentObject(keyboard)
+```
+
+- [KeyboardAvoider.swift](KeyboardAvoider.swift)
+
 ## 🧩 KeyboardObserver
 
 Observable object that provides current onscreen keyboard state:
