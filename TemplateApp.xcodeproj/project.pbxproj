@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31216EDF2423A590009BF361 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31216EDE2423A590009BF361 /* KeyboardObserver.swift */; };
 		31257B6224210B1D00A66BF1 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31257B6124210B1D00A66BF1 /* TabBar.swift */; };
 		31257B6424210B6400A66BF1 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31257B6324210B6400A66BF1 /* TabBarItem.swift */; };
 		31ACBF2924217A21007D23AA /* NavigationForward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ACBF2824217A21007D23AA /* NavigationForward.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31216EDE2423A590009BF361 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		31257B6124210B1D00A66BF1 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		31257B6324210B6400A66BF1 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		31ACBF2824217A21007D23AA /* NavigationForward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationForward.swift; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31216EDD2423A57E009BF361 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				31216EDE2423A590009BF361 /* KeyboardObserver.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
 		31257B6024210B0D00A66BF1 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				31DBECFA2420D721002D8262 /* Application */,
+				31216EDD2423A57E009BF361 /* Keyboard */,
 				31DBECFD2420DD5B002D8262 /* Navigation */,
 				31DBECFB2420D753002D8262 /* Resources */,
 				31257B6024210B0D00A66BF1 /* TabBar */,
@@ -206,6 +217,7 @@
 			files = (
 				31DBED042420DF72002D8262 /* NavigationDismissAction.swift in Sources */,
 				31DBECE72420D660002D8262 /* AppDelegate.swift in Sources */,
+				31216EDF2423A590009BF361 /* KeyboardObserver.swift in Sources */,
 				31DBED082420E48E002D8262 /* NavigationBackButton.swift in Sources */,
 				31DBECE92420D660002D8262 /* SceneDelegate.swift in Sources */,
 				31257B6424210B6400A66BF1 /* TabBarItem.swift in Sources */,
