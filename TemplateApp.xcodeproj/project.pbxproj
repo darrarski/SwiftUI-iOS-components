@@ -12,6 +12,7 @@
 		31257B6424210B6400A66BF1 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31257B6324210B6400A66BF1 /* TabBarItem.swift */; };
 		31ACBF2924217A21007D23AA /* NavigationForward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ACBF2824217A21007D23AA /* NavigationForward.swift */; };
 		31ACBF2C242180E0007D23AA /* VScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ACBF2B242180E0007D23AA /* VScroll.swift */; };
+		31C828192428CA8800D1086A /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C828182428CA8800D1086A /* ActivityIndicator.swift */; };
 		31C828202428DF7F00D1086A /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C8281F2428DF7F00D1086A /* BlurView.swift */; };
 		31DBECE72420D660002D8262 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DBECE62420D660002D8262 /* AppDelegate.swift */; };
 		31DBECE92420D660002D8262 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DBECE82420D660002D8262 /* SceneDelegate.swift */; };
@@ -33,6 +34,7 @@
 		31257B6324210B6400A66BF1 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		31ACBF2824217A21007D23AA /* NavigationForward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationForward.swift; sourceTree = "<group>"; };
 		31ACBF2B242180E0007D23AA /* VScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VScroll.swift; sourceTree = "<group>"; };
+		31C828182428CA8800D1086A /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		31C8281F2428DF7F00D1086A /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		31DBECE32420D660002D8262 /* TemplateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DBECE62420D660002D8262 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,14 @@
 			path = VScroll;
 			sourceTree = "<group>";
 		};
+		31C828172428CA7900D1086A /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				31C828182428CA8800D1086A /* ActivityIndicator.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
 		31C8281E2428DF7300D1086A /* Appearance */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +127,7 @@
 				31C8281E2428DF7300D1086A /* Appearance */,
 				31DBECFA2420D721002D8262 /* Application */,
 				31216EDD2423A57E009BF361 /* Keyboard */,
+				31C828172428CA7900D1086A /* Loading */,
 				31DBECFD2420DD5B002D8262 /* Navigation */,
 				31DBECFB2420D753002D8262 /* Resources */,
 				31257B6024210B0D00A66BF1 /* TabBar */,
@@ -241,6 +252,7 @@
 				31DBED062420E3C2002D8262 /* NavigationBar.swift in Sources */,
 				31EB84C72424213300F5707D /* KeyboardAvoider.swift in Sources */,
 				31DBED022420DF56002D8262 /* NavigationPopGesture.swift in Sources */,
+				31C828192428CA8800D1086A /* ActivityIndicator.swift in Sources */,
 				31DBED002420DDA4002D8262 /* NavigationPush.swift in Sources */,
 				31257B6224210B1D00A66BF1 /* TabBar.swift in Sources */,
 				31C828202428DF7F00D1086A /* BlurView.swift in Sources */,
