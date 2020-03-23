@@ -16,12 +16,12 @@ Template for building iOS application. Contains reusable components and building
 
 ## 🧩 Components
 
-- [✨ Appearance](TemplateApp/Appearance) - Set of SwiftUI components for modifying view appearance.
-- [⌨️ Keyboard](TemplateApp/Keyboard) - Set of SwiftUI components for handling onscreen keyboard.
-- [⏳ Loading](TemplateApp/Loading) - Set of SwiftUI components for presenting loading state.
-- [🧭 Navigation](TemplateApp/Navigation) - Set of SwiftUI components that allows implementing declarative navigation between views.
-- [🧩 TabBar](TemplateApp/TabBar) - SwiftUI component for implementing tabbed user interface.
-- [🧩 VScroll](TemplateApp/VScroll) - Vertically-scrollable view container with fixed-wdith content.
+- [✨ Appearance](TemplateApp/Appearance) - components for modifying view appearance
+- [⌨️ Keyboard](TemplateApp/Keyboard) - components for handling onscreen keyboard
+- [⏳ Loading](TemplateApp/Loading) - components for presenting loading state
+- [🧭 Navigation](TemplateApp/Navigation) - components for declarative navigation between views
+- [🧩 TabBar](TemplateApp/TabBar) - tabbed user interface
+- [🧩 VScroll](TemplateApp/VScroll) - vertically-scrollable container with fixed-wdith content
 
 ## 📄 License
 
