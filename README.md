@@ -20,6 +20,7 @@ Template for building iOS application. Contains reusable components and building
 - [⌨️ Keyboard](TemplateApp/Keyboard) - components for handling onscreen keyboard
 - [⏳ Loading](TemplateApp/Loading) - components for presenting loading state
 - [🧭 Navigation](TemplateApp/Navigation) - components for declarative navigation between views
+- [⚡️ Networking](TemplateApp/Networking) - components for building API clients and networking
 - [🧩 TabBar](TemplateApp/TabBar) - tabbed user interface
 - [🧩 VScroll](TemplateApp/VScroll) - vertically-scrollable container with fixed-wdith content
 
