@@ -16,13 +16,13 @@ Template for building iOS application. Contains reusable components and building
 
 ## 🧩 Components
 
-- [✨ Appearance](TemplateApp/Appearance) - components for modifying view appearance
-- [⌨️ Keyboard](TemplateApp/Keyboard) - components for handling onscreen keyboard
-- [⏳ Loading](TemplateApp/Loading) - components for presenting loading state
-- [🧭 Navigation](TemplateApp/Navigation) - components for declarative navigation between views
-- [⚡️ Networking](TemplateApp/Networking) - components for building API clients and networking
-- [🧩 TabBar](TemplateApp/TabBar) - tabbed user interface
-- [🧩 VScroll](TemplateApp/VScroll) - vertically-scrollable container with fixed-wdith content
+- [✨ Appearance](Appearance) - components for modifying view appearance
+- [⌨️ Keyboard](Keyboard) - components for handling onscreen keyboard
+- [⏳ Loading](Loading) - components for presenting loading state
+- [🧭 Navigation](Navigation) - components for declarative navigation between views
+- [⚡️ Networking](Networking) - components for building API clients and networking
+- [🧩 TabBar](TabBar) - tabbed user interface
+- [🧩 VScroll](VScroll) - vertically-scrollable container with fixed-wdith content
 
 ## 📄 License
 
