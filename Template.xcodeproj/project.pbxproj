@@ -33,6 +33,13 @@
 		31216EDE2423A590009BF361 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		31257B6124210B1D00A66BF1 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		31257B6324210B6400A66BF1 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		312A3E4B242B859700202C2E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		312A3E4C242B85AD00202C2E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		312A3E4D242B85BD00202C2E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		312A3E4E242B85D200202C2E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		312A3E4F242B85E500202C2E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		312A3E50242B85FE00202C2E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		312A3E52242B863D00202C2E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		31ACBF2824217A21007D23AA /* NavigationForward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationForward.swift; sourceTree = "<group>"; };
 		31ACBF2B242180E0007D23AA /* VScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VScroll.swift; sourceTree = "<group>"; };
 		31C828182428CA8800D1086A /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
@@ -70,6 +77,7 @@
 			children = (
 				31EB84C62424213300F5707D /* KeyboardAvoider.swift */,
 				31216EDE2423A590009BF361 /* KeyboardObserver.swift */,
+				312A3E4C242B85AD00202C2E /* README.md */,
 			);
 			path = Keyboard;
 			sourceTree = "<group>";
@@ -77,15 +85,25 @@
 		31257B6024210B0D00A66BF1 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				312A3E4F242B85E500202C2E /* README.md */,
 				31257B6124210B1D00A66BF1 /* TabBar.swift */,
 				31257B6324210B6400A66BF1 /* TabBarItem.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
 		};
+		312A3E51242B861700202C2E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				312A3E52242B863D00202C2E /* README.md */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		31ACBF2A242180D2007D23AA /* VScroll */ = {
 			isa = PBXGroup;
 			children = (
+				312A3E50242B85FE00202C2E /* README.md */,
 				31ACBF2B242180E0007D23AA /* VScroll.swift */,
 			);
 			path = VScroll;
@@ -96,6 +114,7 @@
 			children = (
 				31C828182428CA8800D1086A /* ActivityIndicator.swift */,
 				31C828222428EEC900D1086A /* LoadingOverlay.swift */,
+				312A3E4D242B85BD00202C2E /* README.md */,
 			);
 			path = Loading;
 			sourceTree = "<group>";
@@ -104,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				31C8281F2428DF7F00D1086A /* BlurView.swift */,
+				312A3E4B242B859700202C2E /* README.md */,
 			);
 			path = Appearance;
 			sourceTree = "<group>";
@@ -115,6 +135,7 @@
 				31216EDD2423A57E009BF361 /* Keyboard */,
 				31C828172428CA7900D1086A /* Loading */,
 				31DBECFD2420DD5B002D8262 /* Navigation */,
+				312A3E51242B861700202C2E /* Networking */,
 				31DBECE42420D660002D8262 /* Products */,
 				31257B6024210B0D00A66BF1 /* TabBar */,
 				31DBECE52420D660002D8262 /* TemplateApp */,
@@ -169,6 +190,7 @@
 				31DBED092420E53D002D8262 /* NavigationItem.swift */,
 				31DBED012420DF56002D8262 /* NavigationPopGesture.swift */,
 				31DBECFF2420DDA4002D8262 /* NavigationPush.swift */,
+				312A3E4E242B85D200202C2E /* README.md */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
