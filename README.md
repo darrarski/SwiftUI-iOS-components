@@ -10,8 +10,8 @@ Template for building iOS application. Contains reusable components and building
 
 ## 🛠 Tech stack
 
-- [Xcode](https://developer.apple.com/xcode/) 11.3.1
-- [Swift](https://swift.org/) 5.1
+- [Xcode](https://developer.apple.com/xcode/) 11.4
+- [Swift](https://swift.org/) 5.2
 - [iOS](https://www.apple.com/pl/ios/) 13.0
 
 ## 🧩 Components
