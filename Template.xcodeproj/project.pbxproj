@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3113D2F2242B912400037416 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3113D2F1242B912400037416 /* CollectionView.swift */; };
+		3113D2F4242B9DBB00037416 /* CollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3113D2F3242B9DBB00037416 /* CollectionViewFlowLayout.swift */; };
 		31216EDF2423A590009BF361 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31216EDE2423A590009BF361 /* KeyboardObserver.swift */; };
 		31257B6224210B1D00A66BF1 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31257B6124210B1D00A66BF1 /* TabBar.swift */; };
 		31257B6424210B6400A66BF1 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31257B6324210B6400A66BF1 /* TabBarItem.swift */; };
@@ -30,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3113D2F1242B912400037416 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		3113D2F3242B9DBB00037416 /* CollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		3113D2F5242BA67000037416 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		31216EDE2423A590009BF361 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		31257B6124210B1D00A66BF1 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		31257B6324210B6400A66BF1 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
@@ -72,6 +77,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3113D2F0242B910600037416 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				3113D2F1242B912400037416 /* CollectionView.swift */,
+				3113D2F3242B9DBB00037416 /* CollectionViewFlowLayout.swift */,
+				3113D2F5242BA67000037416 /* README.md */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		31216EDD2423A57E009BF361 /* Keyboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				31C8281E2428DF7300D1086A /* Appearance */,
+				3113D2F0242B910600037416 /* CollectionView */,
 				31216EDD2423A57E009BF361 /* Keyboard */,
 				31C828172428CA7900D1086A /* Loading */,
 				31DBECFD2420DD5B002D8262 /* Navigation */,
@@ -265,7 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3113D2F2242B912400037416 /* CollectionView.swift in Sources */,
 				31DBED042420DF72002D8262 /* NavigationDismissAction.swift in Sources */,
+				3113D2F4242B9DBB00037416 /* CollectionViewFlowLayout.swift in Sources */,
 				31DBECE72420D660002D8262 /* AppDelegate.swift in Sources */,
 				31C828242428EEC900D1086A /* LoadingOverlay.swift in Sources */,
 				31216EDF2423A590009BF361 /* KeyboardObserver.swift in Sources */,

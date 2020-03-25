@@ -17,6 +17,7 @@ Template for building iOS application. Contains reusable components and building
 ## 🧩 Components
 
 - [✨ Appearance](Appearance) - components for modifying view appearance
+- [🧩 CollectionView](CollectionView) - collection layout component
 - [⌨️ Keyboard](Keyboard) - components for handling onscreen keyboard
 - [⏳ Loading](Loading) - components for presenting loading state
 - [🧭 Navigation](Navigation) - components for declarative navigation between views
