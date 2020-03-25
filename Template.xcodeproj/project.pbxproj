@@ -111,8 +111,14 @@
 		31DBECDA2420D660002D8262 = {
 			isa = PBXGroup;
 			children = (
-				31DBECE52420D660002D8262 /* TemplateApp */,
+				31C8281E2428DF7300D1086A /* Appearance */,
+				31216EDD2423A57E009BF361 /* Keyboard */,
+				31C828172428CA7900D1086A /* Loading */,
+				31DBECFD2420DD5B002D8262 /* Navigation */,
 				31DBECE42420D660002D8262 /* Products */,
+				31257B6024210B0D00A66BF1 /* TabBar */,
+				31DBECE52420D660002D8262 /* TemplateApp */,
+				31ACBF2A242180D2007D23AA /* VScroll */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,14 +133,8 @@
 		31DBECE52420D660002D8262 /* TemplateApp */ = {
 			isa = PBXGroup;
 			children = (
-				31C8281E2428DF7300D1086A /* Appearance */,
 				31DBECFA2420D721002D8262 /* Application */,
-				31216EDD2423A57E009BF361 /* Keyboard */,
-				31C828172428CA7900D1086A /* Loading */,
-				31DBECFD2420DD5B002D8262 /* Navigation */,
 				31DBECFB2420D753002D8262 /* Resources */,
-				31257B6024210B0D00A66BF1 /* TabBar */,
-				31ACBF2A242180D2007D23AA /* VScroll */,
 			);
 			path = TemplateApp;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 31DBECDE2420D660002D8262 /* Build configuration list for PBXProject "TemplateApp" */;
+			buildConfigurationList = 31DBECDE2420D660002D8262 /* Build configuration list for PBXProject "Template" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -435,7 +435,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31DBECDE2420D660002D8262 /* Build configuration list for PBXProject "TemplateApp" */ = {
+		31DBECDE2420D660002D8262 /* Build configuration list for PBXProject "Template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31DBECF52420D661002D8262 /* Debug */,
