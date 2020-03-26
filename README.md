@@ -22,6 +22,7 @@ Template for building iOS application. Contains reusable components and building
 - [⏳ Loading](Loading) - components for presenting loading state
 - [🧭 Navigation](Navigation) - components for declarative navigation between views
 - [⚡️ Networking](Networking) - components for building API clients and networking
+- [🧩 StepSlider](StepSlider) - slider view with stepped value
 - [🧩 TabBar](TabBar) - tabbed user interface
 - [🧩 VScroll](VScroll) - vertically-scrollable container with fixed-wdith content
 
