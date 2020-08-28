@@ -1,4 +1,4 @@
-# iOS Template App
+# SwiftUI iOS components
 
 ![swift v5.1](https://img.shields.io/badge/swift-v5.1-orange.svg)
 ![platform iOS](https://img.shields.io/badge/platform-iOS-blue.svg)
@@ -28,6 +28,6 @@ Template for building iOS application. Contains reusable components and building
 
 ## 📄 License
 
-Copyright © 2020 [EL Passion](https://www.elpassion.com)
+Copyright © 2020 [EL Passion](https://www.elpassion.com) & [Dariusz Rybicki Darrarski](http://darrarski.pl)
 
-License: *TBD*
+License: [GNU GPLv3](LICENSE)
